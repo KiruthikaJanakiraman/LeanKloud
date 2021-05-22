@@ -12,7 +12,7 @@ from datetime import datetime
 # con = sqlite3.connect("todo.db")
 
 # con.execute("DROP TABLE 'tasks'")    
-# con.execute("CREATE TABLE 'tasks'('id' INTEGER NOT NULL,'task' TEXT NOT NULL,'due' TEXT NOT NULL,'status' TEXT NOT NULL)")  
+# con.execute("CREATE TABLE 'tasks'('id' INTEGER NOT NULL,'task' TEXT NOT NULL,'due' TEXT NOT NULL,'status' TEXT NOT NULL, primary key('id'))")  
 
 # con.execute("insert into tasks values (1, 'do laundry', '2021-05-20', 'Not Started')")
 # con.execute("insert into tasks values (2, 'do dishes', '2021-05-20', 'In Progress')")
